@@ -209,6 +209,20 @@ iframe{
 	box-shadow: 16px 13px #ffdc00;
 }
 
+#banner_content{
+	margin-top: -3em;
+}
+
+@media screen and (max-width: 736px){
+	#banner_content{
+		margin-top: -6em;
+	}
+}
+
+#bannerLogo{
+	width:150px;
+	height:150px;
+}
 
 
 /* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */

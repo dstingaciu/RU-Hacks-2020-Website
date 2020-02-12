@@ -138,6 +138,19 @@
 	}
 }
 
+#banner_content{
+	margin-top: -3em;
+}
+
+@media screen and (max-width: 736px){
+	#banner_content{
+		margin-top: -8em;
+	}
+}
+#bannerLogo{
+	width:150px;
+	height:150px;
+}
 
 
 html{
