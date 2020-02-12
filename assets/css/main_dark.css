@@ -25,9 +25,8 @@
 }
 
 #topLeftTitle{
-	height: 50px;
+	max-height: 50px;
 	border: none;
-	margin-top: -0.4em;
 }
 
 #imgHeader{
@@ -36,8 +35,8 @@
 }
 
 #navLogo{
-	height: 50px;
-	width: 50px;
+	height: 70px;
+	width: 70px;
 }
 
 @media screen and (max-width: 850px){
@@ -200,6 +199,13 @@ html{
 
 iframe{
 	box-shadow: 16px 13px #ffdc00;
+}
+
+#themeBut:active{
+	background-color: #004c94;
+	-webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
 }
 
 
@@ -3366,7 +3372,7 @@ iframe{
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner_dark.jpg");
+		background-image: url("images/overlay.png"), url("../../images/banner.png");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
